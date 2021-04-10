@@ -1,0 +1,26 @@
+"""
+ Última execução do jogo
+"""
+type LastMove {
+    #Código da partida
+    id: Int!
+    #Data da partida
+    date: String!
+    #Total de erros
+    errors: Int!
+    #Indica se o jogo foi finalizado
+    finished: Boolean
+    #Palavra e dica
+    word: Word
+    #Letras submetidas
+    submittedLetters: String
+    #Etapa do jogo
+    step: String
+    #Tela do jogo
+    screen: String
+}
+
+type Word {
+    tip: String
+    word: String
+}

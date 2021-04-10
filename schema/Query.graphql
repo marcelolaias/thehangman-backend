@@ -1,0 +1,6 @@
+
+# Pontos de entrada da sua API
+type Query {
+    lastMove(id: Int): LastMove
+    lastMoves: [LastMove]
+}

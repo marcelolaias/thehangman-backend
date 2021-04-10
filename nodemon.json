@@ -1,0 +1,8 @@
+{
+    "type": "node",
+    "request": "launch",
+    "name": "Next: Node",
+    "runtimeExecutable": "next",
+    "port": 9229,
+    "console": "integratedTerminal"
+}

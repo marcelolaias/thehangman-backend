@@ -1,0 +1,22 @@
+type Mutation {
+    newGame: LastMove
+
+    saveGame(
+        id: Int
+        word: String
+        errors: Int
+        submittedLetters: String
+        finished: Boolean
+    ): LastMove    
+
+    submitLetter(
+        id: Int
+        word: String
+        letter: String
+    ): LastMove
+
+    checkLetter(
+       id: Int
+       letter: String
+    ): Boolean
+}

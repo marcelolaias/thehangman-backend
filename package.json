@@ -1,0 +1,23 @@
+{
+  "name": "thehangman-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "git@github.com:marcelolaias/thehangman-backend",
+  "author": "Marcelo Laias <marcelo.laias@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --ext js,graphql --inspect index.js",
+    "release": "nodemon --ext js,graphql index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "graphql": "^15.4.0",
+    "graphql-fields": "^2.0.3",
+    "graphql-import": "^1.0.2",
+    "graphql-tools": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
